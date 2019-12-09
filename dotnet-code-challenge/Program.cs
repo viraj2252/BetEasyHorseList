@@ -28,7 +28,13 @@ namespace dotnet_code_challenge
                 logger.Info("Access FileProcessManager");
                 var fileProcessManager = servicesProvider.GetRequiredService<FileProcessManager>();
                 
-                //TODO: Logic to get horses
+                logger.Info("Get All horses");
+                ICollection<Horse> result = fileProcessManager.GetAllHorses("./FeedData");
+                Console.Write($"Horse Name: \t\t Price \n\r");
+                foreach (var horse in result)
+                {
+                    Console.Write($"{horse.Name} \t\t {horse.Price} \n\r");
+                }
 
                 Console.ReadLine();
                 logger.Info("Finished run sequence");
