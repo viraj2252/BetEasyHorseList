@@ -20,6 +20,15 @@ namespace dotnet_code_challenge.Services
             _serviceAccessor = serviceAccessor;
             _logger = logger;
         }
-        
+
+        public IFileFeedParser GetFileProcessor(string xmlFilePath)
+        {
+            throw new NotImplementedException();
+        }
+
+        public ICollection<Horse> GetAllHorses(string supportfiles)
+        {
+            throw new NotImplementedException();
+        }
     }
 }
