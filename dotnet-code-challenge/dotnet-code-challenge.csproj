@@ -9,9 +9,6 @@
 
   <ItemGroup>
     <Folder Include="FeedData\" />
-    <Folder Include="Helpers" />
-    <Folder Include="Interfaces" />
-    <Folder Include="Services" />
   </ItemGroup>
 
   <ItemGroup>
