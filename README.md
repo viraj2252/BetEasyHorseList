@@ -20,7 +20,6 @@ Trying to build service style with DI. Follows DDT with TDD for better testabili
 The project is built on Linux using .NET Core
 -.net core 2 SDK is needed for the built.
 - Nuget is used as the package manager. Initial project load will try to restore the packaged needed and proper internet connection is requred
-- use 
 
 
 ## Tests
