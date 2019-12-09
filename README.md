@@ -1,4 +1,4 @@
-## Project title
+## BetEasyHorseList
 Sample application to process different files to extract race details and horse information
 
 ## Code style
