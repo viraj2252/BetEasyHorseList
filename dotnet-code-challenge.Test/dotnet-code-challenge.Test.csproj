@@ -22,4 +22,13 @@
     <ProjectReference Include="..\dotnet-code-challenge\dotnet-code-challenge.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Update="SupportFiles\Caulfield_Race1.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="SupportFiles\Wolferhampton_Race1.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
 </Project>
